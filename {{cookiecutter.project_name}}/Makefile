@@ -16,12 +16,12 @@ update:
 	cabal v2-configure
 	cabal v2-freeze
 
-build: $(PROJECT_ROOT)/src $(PROJECT_ROOT)/$(PROJECT_NAME).cabal
+build: $(PROJECT_ROOT)/lib $(PROJECT_ROOT)/$(PROJECT_NAME).cabal
 	cabal v2-build
 
 .PHONY: run
 run:
-	cabal v2-run generate-db-auth-token -- --help
+	cabal v2-run -- --help
 
 .PHONY: run-example
 run-example:
