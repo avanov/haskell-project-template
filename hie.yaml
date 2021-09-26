@@ -1,0 +1,7 @@
+cradle:
+  cabal:
+    components:
+      - path: "./lib"
+        component: "{{cookiecutter.project_name}}:lib:{{cookiecutter.project_name}}"
+      - path: "./app"
+        component: "{{cookiecutter.project_name}}:exe:{{cookiecutter.main_executable_cli_name}}"

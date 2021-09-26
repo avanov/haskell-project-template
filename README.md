@@ -1,0 +1,26 @@
+# {{cookiecutter.project_name}}
+
+The project was created by running `./init.sh`
+
+You can build it with
+
+```bash
+
+make build
+```
+
+You can update the package snapshot with
+
+```bash
+
+./update.sh
+```
+
+You can run it with
+
+```bash
+
+./run.sh
+```
+
+Check available GHC versions at https://4shells.com/nixdb/pkg/ghc/

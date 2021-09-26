@@ -1,0 +1,6 @@
+.idea/
+.local/
+dist-newstyle/
+result
+hls.exe
+cabal.project.local*

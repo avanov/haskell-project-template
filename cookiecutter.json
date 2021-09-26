@@ -1,0 +1,7 @@
+{
+    "maintainer_email": "my@email.com",
+    "copyright_author": "Me Myself",
+    "copyright_year": "2021",
+    "project_name": "my-project",
+    "main_executable_cli_name": "my-project-program"
+}
